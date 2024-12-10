@@ -1,0 +1,30 @@
+{
+  "name": "express-starter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "migration": "sequelize-cli db:migrate",
+    "remove-migration": "sequelize-cli db:migrate:undo",
+    "remove-migrations": "sequelize-cli db:migrate:undo:all"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "path": "^0.12.7",
+    "sequelize": "^6.37.3",
+    "sequelize-cli": "^6.6.2",
+    "socket.io": "^4.8.0"
+  }
+}
